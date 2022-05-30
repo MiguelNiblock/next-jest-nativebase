@@ -1,6 +1,13 @@
-import '@/styles/global.css'
-import type { AppProps } from 'next/app'
+import "@/styles/global.css"
+import type { AppProps } from "next/app"
+import { NativeBaseProvider } from "native-base"
 
-export default function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <NativeBaseProvider>
+      <Component {...pageProps} />
+    </NativeBaseProvider>
+  )
 }
+
+export default MyApp
