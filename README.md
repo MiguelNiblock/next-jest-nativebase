@@ -1,25 +1,5 @@
-# Next.js + Jest
+# Jest for Native-Base on Nextjs with React-Native-Web
 
-This example shows how to configure Jest to work with Next.js and Babel. Since the release of Next.js 12, Next.js has in-built configuration for Jest with SWC. See the [with-jest](https://github.com/vercel/next.js/tree/canary/examples/with-jest) example for the latest implementation.
+This is a fully working example of how to properly run Jest tests on Nextjs using Native-base and React-Native-Web.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
-
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest-babel with-jest-babel-app
-# or
-yarn create next-app --example with-jest-babel with-jest-babel-app
-# or
-pnpm create next-app --example with-jest-babel with-jest-babel-app
-```
-
-## Run Jest Tests
-
-```bash
-npm test
-```
+For a deep technical explanation, see the article I published on the process to arrive at this configuration. https://dev.to/miguelniblock/jest-for-native-base-on-nextjs-with-react-native-web-34b8
